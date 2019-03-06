@@ -13,10 +13,10 @@ Express framework is used to deal with routes. Unit test is done by Mocha framew
 
 ## Project Structure and Usage
 
-The project persist all the information into a list of doctor object.
-A doctor object contains the working hour and a list of appointments.
+The project persist all the information into an array of doctor object.
+A doctor object contains the working hour and an array of appointments.
 
-When create a new appointment, the server will check whether the doctor exists, whether the desired time is within a working hour, and whether the desired time is already booked by others. If the check passed, a new appointment with the information of patient name and time will be added to the doctor’s appointments list.
+When create a new appointment, the server will check whether the doctor exists, whether the desired time is within a working hour, and whether the desired time is already booked by others. If the check passed, a new appointment with the information of patient name and time will be added to the doctor’s appointments array.
 
 ## Test
 
